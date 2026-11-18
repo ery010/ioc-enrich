@@ -7,7 +7,7 @@ name = "ioc-enrich"
 version = "0.1.0"
 description = "Multi-source IOC enrichment CLI tool with weighted scoring and graph pivoting"
 requires-python = ">=3.11"
-dependencies = ["hhtpx", "typer", "rich", "python-dotenv"]
+dependencies = ["httpx", "typer", "rich", "python-dotenv"]
 
 [project.optional-dependencies]
 dev = ["pytest", "pytest-asyncio", "respx", "ruff"]
